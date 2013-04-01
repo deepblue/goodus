@@ -1,0 +1,81 @@
+#stepList {
+  background-color: linear-gradient(#817972, #d9d3cb);
+
+  button {
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #a30000;
+    border-color: black;
+    border-width: 1px;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+  }
+
+  page-control {
+    background-color: #f3f3f3;
+    color: #e8e8e8;
+    current-color: #8c8c8c;
+    border-radius: 2px;
+    border-color: gray;
+    border-width: 1px;
+  }
+}
+
+navigation-bar {
+  background-color: rgb(30, 30, 30);
+  border-width: 1px;
+  border-color: gray;
+  color: white;
+}
+
+.navButton {
+  top: 6;
+  size: 50 31;
+  background-color: linear-gradient(#817972, #d9d3cb);
+  font-weight: regular;
+  font-size: 13px;
+  color: #ffffff;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #212325;
+  box-shadow: inset 0 1px 0 rgba(102, 102, 102, 0.89), 0 1px 0 rgba(255,255,255,0.1);
+
+  &.backButton {
+    shape: arrow-button-left;
+    content-edge-inset: 0 0 0 6;
+  }
+}
+
+#history {
+  table-view {
+    background-image: url(bike.jpg); // http://www.flickr.com/photos/29998767@N07/5654180645/
+  }
+
+  .progress1 {
+    background-color: linear-gradient(lightcoral, coral);
+    border-width: 1px;
+    border-color: #633434;
+
+  }
+
+  .progress2 {
+    background-color: lightgray;
+    border-color: darkgray;
+    border-width: 1px;
+  }
+
+  .progressLabel {
+    color: white;
+  }
+}
+
+#practice {
+  label {
+    background-color: black;
+    color: cyan;
+    font-weight: bolder;
+    font-size: 50px;
+    font-align: center;
+  }
+}
